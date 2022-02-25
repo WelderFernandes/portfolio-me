@@ -16,7 +16,7 @@ export function InitialPage() {
 			<div>
 				<Image
 					loader={myLoader}
-					src="./images/avatar.png"
+					src="/images/avatar.png"
 					alt="Picture of the author"
 					width={500}
 					height={500}
