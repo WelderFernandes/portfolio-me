@@ -1,4 +1,5 @@
 import Image, { ImageProps } from "next/image";
+import Avatar from "/public/images/Avatar.png";
 
 export function InitialPage() {
 	const myLoader = ({ src, width, quality }: ImageProps) => {
@@ -16,7 +17,7 @@ export function InitialPage() {
 			<div>
 				<Image
 					loader={myLoader}
-					src="/images/avatar.png"
+					src={Avatar}
 					alt="Picture of the author"
 					width={500}
 					height={500}
