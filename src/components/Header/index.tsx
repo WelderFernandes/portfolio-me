@@ -19,8 +19,8 @@ export default function Header() {
 				onChange={handleDarkMode}
 				className={`${
 					theme === "light"
-						? "bg-gradient-to-l dark:bg-yellow-500 bg-black text-white"
-						: "bg-yellow-300 dark:text-gray-300 text-gray-800"
+						? "bg-gradient-to-l dark:bg-yellow-200 bg-black text-yellow-200"
+						: "bg-white dark:text-gray-900 text-gray-800"
 				}
           					relative 
 							items-center
@@ -35,11 +35,8 @@ export default function Header() {
 							rounded-full 
 							cursor-pointer 
 							transition-colors 
-							ease-in-out duration-200 
-							focus:outline-none 
-							focus-visible:ring-2  
-							focus-visible:ring-white
-							focus-visible:ring-opacity-75`}
+							ease-in-out duration-700
+							focus:outline-none`}
 			>
 				<span className="sr-only">Use setting</span>
 				<CgSun className="text-xl " />
@@ -47,14 +44,20 @@ export default function Header() {
 
 				<span
 					aria-hidden="true"
-					className={`${theme === "light" ? "translate-x-9" : "translate-x-0 "}
+					className={`${
+						theme === "light"
+							? "translate-x-9 bg-gray-100"
+							: "translate-x-0 bg-gray-900"
+					}
             				 pointer-events-none 
 							 absolute
 							 inline-block 
 							 h-[24px] 
 							 w-[24px] 
 							 rounded-full 
-							 bg-white shadow-lg transform ring-0 transition ease-in-out duration-200`}
+							  
+							 shadow-lg 
+							 transform ring-0 transition ease-in-out duration-200`}
 				/>
 			</Switch>
 		</div>

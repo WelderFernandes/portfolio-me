@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { ThemeProvider } from "next-themes";
 import { About } from "../components/About";
 import Header from "../components/Header";
+import { Imake } from "../components/Imake";
 import { InitialPage } from "../components/InitialPage";
 
 const Home: NextPage = () => {
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
 				<Header />
 				<InitialPage />
 				<About />
+				<Imake />
 			</div>
 		</ThemeProvider>
 	);

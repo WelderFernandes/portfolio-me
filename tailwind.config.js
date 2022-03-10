@@ -22,6 +22,12 @@ module.exports = {
 				medium: "500",
 				bold: "700",
 			},
+			spacing: {
+				82: "21.813rem",
+			},
+			height: {
+				62: "15.063rem",
+			},
 		},
 	},
 	plugins: [],
