@@ -1,7 +1,7 @@
 import Image from "next/image";
-import DevPng from "../../../public/images/dev.png";
-import SoftwarePng from "../../../public/images/software.png";
-import WebPng from "../../../public/images/web.png";
+import DevPng from "../../../public/images/Dev.png";
+import SoftwarePng from "../../../public/images/Software.png";
+import WebPng from "../../../public/images/Web.png";
 export function Imake() {
 	return (
 		<div className="container flex flex-col items-center justify-center my-28">
