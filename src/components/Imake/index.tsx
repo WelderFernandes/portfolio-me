@@ -54,7 +54,7 @@ export function Imake() {
 				>
 					<Image src={DevPng} width={51} height={47} alt="Imake" />
 					<div className="">
-						<p>Software </p>
+						<p>Web </p>
 						<p>Development</p>
 					</div>
 				</div>
@@ -74,8 +74,8 @@ export function Imake() {
 				>
 					<Image src={WebPng} width={51} height={47} alt="Imake" />
 					<div className="">
-						<p>Software </p>
-						<p>Development</p>
+						<p>Web </p>
+						<p>Designer</p>
 					</div>
 				</div>
 			</div>

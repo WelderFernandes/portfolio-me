@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export function About() {
 	return (
-		<div className="my-10">
-			<div className="text-center">
-				<h1 className="text-3xl font-bold">Sobre min</h1>
+		<div className="my-10 flex justify-items-center flex-col items-center">
+			<div className="text-center sm:w-9/12 ">
+				<h1 className="text-3xl font-bold mb-4">Sobre min</h1>
 				<p className="indent-12 leading-relaxed">
 					Sou um desenvolvedor web com paixão pela criação de belos sites e
 					aplicações web. Tenho mais de 5 anos de experiência trabalhando na
@@ -16,7 +16,7 @@ export function About() {
 			</div>
 
 			<div
-				className=" my-12 
+				className=" mt-24 
                             flex 
                             flex-col
                             justify-center
