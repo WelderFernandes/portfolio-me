@@ -32,6 +32,14 @@ export function Contact() {
 						className="w-full p-2 my-4 mb-2 font-bold bg-transparent border-2 rounded-md resize-none focus:brightness-125 focus:outline text-gray-light bg:none border-shape caret-zinc-500"
 						placeholder="Mensagem"
 					/>
+					<div className="flex justify-center my-4">
+						<button
+							className="px-4 py-2 text-white bg-green-light hover:brightness-90 focus:outline-none focus:shadow-outline"
+							type="submit"
+						>
+							Enviar
+						</button>
+					</div>
 				</form>
 			</div>
 		</div>
